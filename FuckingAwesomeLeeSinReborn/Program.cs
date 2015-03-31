@@ -113,7 +113,7 @@ namespace FuckingAwesomeLeeSinReborn
 
             CheckHandler.Init();
             JumpHandler.Load();
-            Game.OnUpdate += OnUpdate;
+            Game.OnUpdate += Game_OnGameUpdate;
             Drawing.OnDraw += Drawing_OnDraw;
             Game.OnWndProc += InsecHandler.OnClick;
             AutoSmite.Init();
