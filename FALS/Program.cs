@@ -267,7 +267,7 @@ namespace FuckingAwesomeLeeSin
             Menu.AddToMainMenu();
 
             Drawing.OnDraw += Drawing_OnDraw; // Add onDraw
-            Game.OnUpdate += Game_OnUpdate; // adds OnGameUpdate (Same as onTick in bol)
+            Game.OnUpdate += Game_OnGameUpdate;
             Obj_AI_Base.OnProcessSpellCast += Obj_AI_Base_OnProcessSpellCast;
             GameObject.OnCreate += GameObject_OnCreate;
             Orbwalking.AfterAttack += Orbwalking_AfterAttack;
@@ -999,7 +999,7 @@ namespace FuckingAwesomeLeeSin
                 ((target.HasBuff("BlindMonkQOne", true) || target.HasBuff("blindmonkqonechaos", true))) && paramBool("useR"))
                 R.CastOnUnit(target, packets());
         }
-        public static void CastQ1(Obj_AI_Hero target)
+        public static void ccCastQ1(Obj_AI_Hero target)
         {
             var Qpred = Q.GetPrediction(target);
             if ((Qpred.CollisionObjects.Where(a => a.IsValidTarget() && a.IsMinion).ToList().Count) == 1 && smiteSlot.IsReady() && paramBool("qSmite") && Qpred.CollisionObjects[0].IsValidTarget(780))
