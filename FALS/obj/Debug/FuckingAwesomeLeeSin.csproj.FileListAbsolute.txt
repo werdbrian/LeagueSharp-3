@@ -1,3 +1,0 @@
-C:\Users\AHmed\Downloads\Release\FARepo-master\FuckingAwesomeLeeSin\FuckingAwesomeLeeSin\bin\Release\FuckingAwesomeLeeSin.exe.config
-C:\Users\AHmed\Documents\GitHub\Leaguesharp\FALS\bin\Release\FuckingAwesomeLeeSin.exe.config
-C:\Users\AHmed\Documents\GitHub\Leaguesharp\FALS\obj\Debug\FuckingAwesomeLeeSin.csprojResolveAssemblyReference.cache

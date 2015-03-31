@@ -4,31 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3DB4F472-E9DA-485C-931B-CE050D03D66A}</ProjectGuid>
+    <ProjectGuid>{864E8ADE-CC4F-44E9-ACA1-71D71E7470D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FuckingAwesomeLeeSin</RootNamespace>
-    <AssemblyName>FuckingAwesomeLeeSin</AssemblyName>
+    <RootNamespace>FuckingAwesomeLeeSinReborn</RootNamespace>
+    <AssemblyName>FuckingAwesomeLeeSin Reborn</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PreBuildEvent />
     <PostBuildEvent />
     <OutputPath>bin\Release</OutputPath>
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -49,18 +34,24 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>FuckingAwesomeLeeSinReborn.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="clipper_library">
-      <HintPath>..\..\..\..\AppData\Roaming\LSC1DCD9AA\Repositories\FF5A0427\trunk\DevCommom\bin\Release\clipper_library.dll</HintPath>
+      <HintPath>C:\Users\CoreyJames\Desktop\LeagueSharp\\System\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="LeagueSharp">
-      <HintPath>..\..\..\..\AppData\Roaming\LSC1DCD9AA\Repositories\FF5A0427\trunk\DevCommom\bin\Release\LeagueSharp.dll</HintPath>
+      <HintPath>C:\Users\CoreyJames\Desktop\LeagueSharp\\System\LeagueSharp.dll</HintPath>
     </Reference>
     <Reference Include="LeagueSharp.Common">
-      <HintPath>..\..\..\..\AppData\Roaming\LSC1DCD9AA\Repositories\FF5A0427\trunk\DevCommom\bin\Release\LeagueSharp.Common.dll</HintPath>
+      <HintPath>C:\Users\CoreyJames\Desktop\LeagueSharp\\System\LeagueSharp.Common.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX">
-      <HintPath>..\..\..\..\AppData\Roaming\LSC1DCD9AA\Repositories\FF5A0427\trunk\DevCommom\bin\Release\SharpDX.dll</HintPath>
+      <HintPath>C:\Users\CoreyJames\Desktop\LeagueSharp\\System\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9">
+      <HintPath>C:\Users\CoreyJames\Desktop\LeagueSharp\\System\SharpDX.Direct3D9.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -72,26 +63,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoSmite.cs" />
+    <Compile Include="CheckHandler.cs" />
+    <Compile Include="Geometry.cs" />
+    <Compile Include="InsecHandler.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="JumpHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StateHandler.cs" />
+    <Compile Include="WardjumpHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
