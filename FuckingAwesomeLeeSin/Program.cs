@@ -1021,31 +1021,6 @@ namespace FuckingAwesomeLeeSin
         public static readonly int[] SmiteRed = { 3715, 3718, 3717, 3716, 3714 };
         public static readonly int[] SmiteBlue = { 3706, 3710, 3709, 3708, 3707 };
 
-        public static bool TextRendered
-        {
-            get
-            {
-                return textRendered;
-            }
-
-            set
-            {
-                textRendered = value;
-            }
-        }
-
-        public static bool TextRendered1
-        {
-            get
-            {
-                return textRendered;
-            }
-
-            set
-            {
-                textRendered = value;
-            }
-        }
 
         public static string smitetype()
         {
