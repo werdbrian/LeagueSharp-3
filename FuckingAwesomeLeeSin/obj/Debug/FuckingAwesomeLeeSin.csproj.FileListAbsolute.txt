@@ -10,3 +10,11 @@ C:\Users\AHmed\Downloads\Release\FARepo-master\FuckingAwesomeLeeSin\FuckingAweso
 C:\Users\AHmed\Downloads\Release\FARepo-master\FuckingAwesomeLeeSin\FuckingAwesomeLeeSin\bin\Release\LeagueSharp.xml
 C:\Users\AHmed\Downloads\Release\FARepo-master\FuckingAwesomeLeeSin\FuckingAwesomeLeeSin\obj\Debug\FuckingAwesomeLeeSin.exe
 C:\Users\AHmed\Downloads\Release\FARepo-master\FuckingAwesomeLeeSin\FuckingAwesomeLeeSin\obj\Debug\FuckingAwesomeLeeSin.pdb
+C:\Users\AHmed\Documents\GitHub\Leaguesharp\FuckingAwesomeLeeSin\bin\Release\FuckingAwesomeLeeSin.exe.config
+C:\Users\AHmed\Documents\GitHub\Leaguesharp\FuckingAwesomeLeeSin\obj\Debug\FuckingAwesomeLeeSin.exe
+C:\Users\AHmed\Documents\GitHub\Leaguesharp\FuckingAwesomeLeeSin\obj\Debug\FuckingAwesomeLeeSin.pdb
+C:\Users\AHmed\Documents\GitHub\Leaguesharp\FuckingAwesomeLeeSin\bin\Release\FuckingAwesomeLeeSin.exe
+C:\Users\AHmed\Documents\GitHub\Leaguesharp\FuckingAwesomeLeeSin\bin\Release\FuckingAwesomeLeeSin.pdb
+C:\Users\AHmed\Documents\GitHub\Leaguesharp\FuckingAwesomeLeeSin\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\AHmed\Documents\GitHub\Leaguesharp\FuckingAwesomeLeeSin\bin\Release\LeagueSharp.xml
+C:\Users\AHmed\Documents\GitHub\Leaguesharp\FuckingAwesomeLeeSin\obj\Debug\FuckingAwesomeLeeSin.csprojResolveAssemblyReference.cache
