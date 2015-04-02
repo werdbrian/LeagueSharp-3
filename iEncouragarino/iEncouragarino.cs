@@ -49,8 +49,7 @@ namespace iEncouragarino
                 Game.Say(whatToSay);
             }
         }
-
-        static string AddGs(string whatToSay)
+            static string Random(string whatToSay)
         {
             var random = new Random();
             var randomNumber = random.Next(4);
@@ -59,11 +58,11 @@ namespace iEncouragarino
                 var randomNumber3 = random.Next(2);
                 if (randomNumber3 == 0)
                 {
-                    whatToSay = whatToSay + "g";
+                    whatToSay = whatToSay + "";
                 }
                 else
                 {
-                    whatToSay = whatToSay + "G";
+                    whatToSay = whatToSay + "";
                 }
             }
             return whatToSay;
@@ -92,7 +91,7 @@ namespace iEncouragarino
                 incomplete = false;
                 if (menu.Item("randomG").GetValue<bool>())
                 {
-                    whatToSay = AddGs(whatToSay);
+                    whatToSay = Random(whatToSay);
                 }
                 CustomSayAll(whatToSay);
             }
