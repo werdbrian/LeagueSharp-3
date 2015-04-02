@@ -7,8 +7,8 @@
     <ProjectGuid>{113B42E9-1A50-4200-98C8-18C4FEF164B5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication2</RootNamespace>
-    <AssemblyName>ConsoleApplication2</AssemblyName>
+    <RootNamespace>iEncouragarino</RootNamespace>
+    <AssemblyName>iEncouragarino</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
