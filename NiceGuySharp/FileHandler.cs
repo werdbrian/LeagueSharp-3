@@ -7,7 +7,6 @@ namespace NiceGuySharp
 {
     internal class FileHandler
     {
-        public static string Folder = (Directory.Exists(Config.AppDataDirectory + @"\NiceGuySharp\"));
 
 
         public static string OnGameStartTxt;
