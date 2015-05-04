@@ -136,7 +136,7 @@ namespace NiceGuySharp
                 const string content = "\nhaha\nowned";
                 var separator = new[] { "\n" };
                 string[] lines = content.Split(separator, StringSplitOptions.None);
-                File.WriteAllLines(OnQuadraTxt, lines(1));
+                File.WriteAllLines(OnQuadraTxt, lines);
             }
             if (!File.Exists(OnPentaTxt))
             {
