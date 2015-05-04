@@ -34,7 +34,7 @@ namespace NiceGuySharp
             EnemyPentas;
 
         public static int LastSentMessage;
-        public static int MinTimeBeforeNewMessage = Rand.Next(5000, 60000);
+        public static int MinTimeBeforeNewMessage = Rand.Next(5000, 70000);
         public static void Main(string[] args)
         {
             CustomEvents.Game.OnGameLoad += Game_OnGameLoad;
