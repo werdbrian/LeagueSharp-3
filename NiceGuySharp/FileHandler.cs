@@ -133,10 +133,10 @@ namespace NiceGuySharp
             {
                 var newfile = File.Create(OnQuadraTxt);
                 newfile.Close();
-                const string content = "godlike\nhaha\nowned\nxD";
+                const string content = "\nhaha\nowned";
                 var separator = new[] { "\n" };
                 string[] lines = content.Split(separator, StringSplitOptions.None);
-                File.WriteAllLines(OnQuadraTxt, lines);
+                File.WriteAllLines(OnQuadraTxt, lines(1));
             }
             if (!File.Exists(OnPentaTxt))
             {
