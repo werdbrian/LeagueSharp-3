@@ -106,7 +106,7 @@ namespace NiceGuySharp
             {
                 var newfile = File.Create(OnKillTxt);
                 newfile.Close();
-                const string content = "/all outplayed\n/all owned\n/all pwned";
+                const string content = "/all outplayed\n/all owned\n/all pwned\n/all lmao\n/all yeee\n/all wats up sucka\n/all yea ok\n/all lmfao";
                 var separator = new[] { "\n" };
                 string[] lines = content.Split(separator, StringSplitOptions.None);
                 File.WriteAllLines(OnKillTxt, lines);
