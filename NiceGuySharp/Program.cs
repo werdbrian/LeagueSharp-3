@@ -191,6 +191,8 @@ namespace NiceGuySharp
                         if (message != null)
                         {
                             Utility.DelayAction.Add(message.Length * (new Random(Environment.TickCount).Next(100, 300)), () => Game.Say(message));
+                            LastSentMessage = Environment.TickCount;
+                            
                         }
                     }
                 }
